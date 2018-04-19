@@ -8,13 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		3829E0AC200886330094D75F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3829E0AB200886330094D75F /* AppDelegate.m */; };
-		3829E0AF200886330094D75F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3829E0AE200886330094D75F /* ViewController.m */; };
 		3829E0B2200886330094D75F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3829E0B0200886330094D75F /* Main.storyboard */; };
 		3829E0B4200886330094D75F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3829E0B3200886330094D75F /* Assets.xcassets */; };
 		3829E0B7200886330094D75F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3829E0B5200886330094D75F /* LaunchScreen.storyboard */; };
 		3829E0BA200886330094D75F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3829E0B9200886330094D75F /* main.m */; };
 		3829E0C4200886330094D75F /* EcoVideoCallingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3829E0C3200886330094D75F /* EcoVideoCallingTests.m */; };
 		3829E0CF200886330094D75F /* EcoVideoCallingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3829E0CE200886330094D75F /* EcoVideoCallingUITests.m */; };
+		3829E0DE2008952D0094D75F /* ARTCVideoChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3829E0DD2008952D0094D75F /* ARTCVideoChatViewController.m */; };
+		3829E0E1200896230094D75F /* EVCVideoCallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3829E0E0200896230094D75F /* EVCVideoCallViewController.m */; };
+		383D74FC2008B506009AFDEC /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 383D74FB2008B506009AFDEC /* libPods.a */; };
+		7963599B51FF77FA7A4B740C /* libPods-EcoVideoCallingTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5270CBA4645125EBFEF494F3 /* libPods-EcoVideoCallingTests.a */; };
+		DD58E9950A694549F615D200 /* libPods-EcoVideoCallingUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5373E0B04D1F3CDFA5970DA9 /* libPods-EcoVideoCallingUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3362E1CD22167DDD415C631C /* libPods-EcoVideoCalling.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EcoVideoCalling.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3829E0A7200886330094D75F /* EcoVideoCalling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EcoVideoCalling.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3829E0AA200886330094D75F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3829E0AB200886330094D75F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3829E0AD200886330094D75F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3829E0AE200886330094D75F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3829E0B1200886330094D75F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3829E0B3200886330094D75F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3829E0B6200886330094D75F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +54,19 @@
 		3829E0CA200886330094D75F /* EcoVideoCallingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EcoVideoCallingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3829E0CE200886330094D75F /* EcoVideoCallingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EcoVideoCallingUITests.m; sourceTree = "<group>"; };
 		3829E0D0200886330094D75F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3829E0DC2008952C0094D75F /* ARTCVideoChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARTCVideoChatViewController.h; sourceTree = "<group>"; };
+		3829E0DD2008952D0094D75F /* ARTCVideoChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARTCVideoChatViewController.m; sourceTree = "<group>"; };
+		3829E0DF200896230094D75F /* EVCVideoCallViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EVCVideoCallViewController.h; sourceTree = "<group>"; };
+		3829E0E0200896230094D75F /* EVCVideoCallViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EVCVideoCallViewController.m; sourceTree = "<group>"; };
+		383D74FB2008B506009AFDEC /* libPods.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPods.a; sourceTree = "<group>"; };
+		4E9E2CE65BDDA2AB97F547BA /* Pods-EcoVideoCallingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcoVideoCallingUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EcoVideoCallingUITests/Pods-EcoVideoCallingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5270CBA4645125EBFEF494F3 /* libPods-EcoVideoCallingTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EcoVideoCallingTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5373E0B04D1F3CDFA5970DA9 /* libPods-EcoVideoCallingUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EcoVideoCallingUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53764A5F9E74056C92682616 /* Pods-EcoVideoCallingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcoVideoCallingUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EcoVideoCallingUITests/Pods-EcoVideoCallingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6F4990D9EBF9AD108BABA280 /* Pods-EcoVideoCallingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcoVideoCallingTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EcoVideoCallingTests/Pods-EcoVideoCallingTests.release.xcconfig"; sourceTree = "<group>"; };
+		79559908BC6C9484B90E4DCE /* Pods-EcoVideoCallingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcoVideoCallingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EcoVideoCallingTests/Pods-EcoVideoCallingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7CED6C51CC0AC3D567B187DC /* Pods-EcoVideoCalling.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcoVideoCalling.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EcoVideoCalling/Pods-EcoVideoCalling.debug.xcconfig"; sourceTree = "<group>"; };
+		8D44285E57D3F2D5A76B9C27 /* Pods-EcoVideoCalling.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcoVideoCalling.release.xcconfig"; path = "Pods/Target Support Files/Pods-EcoVideoCalling/Pods-EcoVideoCalling.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				383D74FC2008B506009AFDEC /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7963599B51FF77FA7A4B740C /* libPods-EcoVideoCallingTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD58E9950A694549F615D200 /* libPods-EcoVideoCallingUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +104,8 @@
 				3829E0C2200886330094D75F /* EcoVideoCallingTests */,
 				3829E0CD200886330094D75F /* EcoVideoCallingUITests */,
 				3829E0A8200886330094D75F /* Products */,
+				69E9905FB425EBD9097E9E65 /* Pods */,
+				86DD4A65DCB2EB0F1578AE7B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +122,12 @@
 		3829E0A9200886330094D75F /* EcoVideoCalling */ = {
 			isa = PBXGroup;
 			children = (
+				3829E0DC2008952C0094D75F /* ARTCVideoChatViewController.h */,
+				3829E0DD2008952D0094D75F /* ARTCVideoChatViewController.m */,
 				3829E0AA200886330094D75F /* AppDelegate.h */,
 				3829E0AB200886330094D75F /* AppDelegate.m */,
-				3829E0AD200886330094D75F /* ViewController.h */,
-				3829E0AE200886330094D75F /* ViewController.m */,
+				3829E0DF200896230094D75F /* EVCVideoCallViewController.h */,
+				3829E0E0200896230094D75F /* EVCVideoCallViewController.m */,
 				3829E0B0200886330094D75F /* Main.storyboard */,
 				3829E0B3200886330094D75F /* Assets.xcassets */,
 				3829E0B5200886330094D75F /* LaunchScreen.storyboard */,
@@ -132,6 +155,30 @@
 			path = EcoVideoCallingUITests;
 			sourceTree = "<group>";
 		};
+		69E9905FB425EBD9097E9E65 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7CED6C51CC0AC3D567B187DC /* Pods-EcoVideoCalling.debug.xcconfig */,
+				8D44285E57D3F2D5A76B9C27 /* Pods-EcoVideoCalling.release.xcconfig */,
+				79559908BC6C9484B90E4DCE /* Pods-EcoVideoCallingTests.debug.xcconfig */,
+				6F4990D9EBF9AD108BABA280 /* Pods-EcoVideoCallingTests.release.xcconfig */,
+				4E9E2CE65BDDA2AB97F547BA /* Pods-EcoVideoCallingUITests.debug.xcconfig */,
+				53764A5F9E74056C92682616 /* Pods-EcoVideoCallingUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		86DD4A65DCB2EB0F1578AE7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				383D74FB2008B506009AFDEC /* libPods.a */,
+				3362E1CD22167DDD415C631C /* libPods-EcoVideoCalling.a */,
+				5270CBA4645125EBFEF494F3 /* libPods-EcoVideoCallingTests.a */,
+				5373E0B04D1F3CDFA5970DA9 /* libPods-EcoVideoCallingUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +186,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3829E0D3200886330094D75F /* Build configuration list for PBXNativeTarget "EcoVideoCalling" */;
 			buildPhases = (
+				7D00FD7FA4975A396A31309F /* [CP] Check Pods Manifest.lock */,
 				3829E0A3200886330094D75F /* Sources */,
 				3829E0A4200886330094D75F /* Frameworks */,
 				3829E0A5200886330094D75F /* Resources */,
+				5D09F3B36F4FE3D7551C006C /* [CP] Embed Pods Frameworks */,
+				3CAEE94E73406C08CE788C6B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -156,9 +206,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3829E0D6200886330094D75F /* Build configuration list for PBXNativeTarget "EcoVideoCallingTests" */;
 			buildPhases = (
+				E53141B6430C5CBC5AE3EB99 /* [CP] Check Pods Manifest.lock */,
 				3829E0BB200886330094D75F /* Sources */,
 				3829E0BC200886330094D75F /* Frameworks */,
 				3829E0BD200886330094D75F /* Resources */,
+				1DBEA1F337ACE80505DF80D8 /* [CP] Embed Pods Frameworks */,
+				C3F4A5FB2356CA97CAA77398 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -174,9 +227,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3829E0D9200886330094D75F /* Build configuration list for PBXNativeTarget "EcoVideoCallingUITests" */;
 			buildPhases = (
+				4139B8C49300F6F0CFC8D8AD /* [CP] Check Pods Manifest.lock */,
 				3829E0C6200886330094D75F /* Sources */,
 				3829E0C7200886330094D75F /* Frameworks */,
 				3829E0C8200886330094D75F /* Resources */,
+				51B136FE3B09181B392F15DD /* [CP] Embed Pods Frameworks */,
+				C5AA7C3DC7051C2812199027 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -260,14 +316,162 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1DBEA1F337ACE80505DF80D8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EcoVideoCallingTests/Pods-EcoVideoCallingTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3CAEE94E73406C08CE788C6B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EcoVideoCalling/Pods-EcoVideoCalling-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4139B8C49300F6F0CFC8D8AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EcoVideoCallingUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51B136FE3B09181B392F15DD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EcoVideoCallingUITests/Pods-EcoVideoCallingUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D09F3B36F4FE3D7551C006C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EcoVideoCalling/Pods-EcoVideoCalling-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D00FD7FA4975A396A31309F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EcoVideoCalling-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3F4A5FB2356CA97CAA77398 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EcoVideoCallingTests/Pods-EcoVideoCallingTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5AA7C3DC7051C2812199027 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EcoVideoCallingUITests/Pods-EcoVideoCallingUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E53141B6430C5CBC5AE3EB99 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EcoVideoCallingTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3829E0A3200886330094D75F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3829E0AF200886330094D75F /* ViewController.m in Sources */,
 				3829E0BA200886330094D75F /* main.m in Sources */,
 				3829E0AC200886330094D75F /* AppDelegate.m in Sources */,
+				3829E0DE2008952D0094D75F /* ARTCVideoChatViewController.m in Sources */,
+				3829E0E1200896230094D75F /* EVCVideoCallViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,12 +632,19 @@
 		};
 		3829E0D4200886330094D75F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CED6C51CC0AC3D567B187DC /* Pods-EcoVideoCalling.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = VTE566JDHF;
+				DEVELOPMENT_TEAM = 2LUK926E65;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = EcoVideoCalling/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ecoihub.EcoVideoCalling;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -442,12 +653,19 @@
 		};
 		3829E0D5200886330094D75F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D44285E57D3F2D5A76B9C27 /* Pods-EcoVideoCalling.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = VTE566JDHF;
+				DEVELOPMENT_TEAM = 2LUK926E65;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = EcoVideoCalling/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ecoihub.EcoVideoCalling;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -456,6 +674,7 @@
 		};
 		3829E0D7200886330094D75F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79559908BC6C9484B90E4DCE /* Pods-EcoVideoCallingTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -471,6 +690,7 @@
 		};
 		3829E0D8200886330094D75F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F4990D9EBF9AD108BABA280 /* Pods-EcoVideoCallingTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -486,6 +706,7 @@
 		};
 		3829E0DA200886330094D75F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E9E2CE65BDDA2AB97F547BA /* Pods-EcoVideoCallingUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VTE566JDHF;
@@ -500,6 +721,7 @@
 		};
 		3829E0DB200886330094D75F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53764A5F9E74056C92682616 /* Pods-EcoVideoCallingUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VTE566JDHF;
